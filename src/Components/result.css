@@ -1,0 +1,73 @@
+.result_card{
+    display: flex;
+    width: 50rem;
+    margin: 2rem auto;
+    border-radius: 25px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.result_card .leftPart{
+    display: flex;
+    width: 23rem;
+    padding: 1rem;
+    flex-direction: column;
+   background: linear-gradient(to top, #4533EB, #6c5df0);
+   border-radius: 25px;
+   align-items: center;
+}
+.result_card .leftPart .title{
+    font-weight: 500;
+    color: rgb(199, 197, 197);
+    font-size: 1.5rem;
+}
+.result_card .leftPart .score{
+    display: flex;
+    flex-direction: column;
+    color: rgb(165, 161, 161);
+    background-color: #452DDD;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 50%;
+    width: 50%;
+    padding: 1.5rem;
+}
+.result_card .leftPart .score span{
+    font-weight: 600;
+    font-size: 4.5rem;
+    color: white;
+}
+.result_card .leftPart .mention{
+    color: white;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+.result_card .leftPart .description{
+    color: rgb(199, 197, 197);
+    width: 70%;
+    font-size: 1.25rem;
+}
+.result_card .rightPart{
+    display: flex;
+    width: 23rem;
+    flex-direction: column;
+    background-color:white;
+    padding: 2rem;
+    text-align: left;
+    justify-content: space-between;
+}
+.result_card .rightPart .title{
+font-weight: 700;
+font-size: 2rem;
+color: #303B59;
+margin-bottom: 0;
+}
+.result_card .rightPart button{
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: #303B59;
+    border: none;
+    border-radius: 20px;
+    width: 80%;
+    height: 3rem;
+    margin: 0 auto;
+}

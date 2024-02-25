@@ -1,0 +1,35 @@
+.sub_score{
+    display: flex;
+    justify-content: space-between;
+    height: 2rem;
+    border-radius: 8px;
+    padding: 0.5rem;
+    align-items: center;
+}
+.sub_score .capacity{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.sub_score .capacity img{
+    width: 1.5rem;
+}
+.sub_score .capacity .sub_title{
+    font-weight: 600;
+    font-size: large;
+}
+.sub_score .score_result{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.sub_score .score_result{
+    color: rgb(165, 161, 161);
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+.sub_score .score_result span{
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: rgb(53, 53, 53);
+}
