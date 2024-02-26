@@ -27,6 +27,8 @@
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     border-radius: 50%;
     width: 50%;
+    justify-content: center;
+    aspect-ratio: 1/1;
     padding: 1.5rem;
 }
 .result_card .leftPart .score span{
